@@ -1,3 +1,6 @@
+
+#I know this one is so lame
+
 print("this program helps the user to find the simple interest and compound interest of a given principal ammount")
 
 def simple():
