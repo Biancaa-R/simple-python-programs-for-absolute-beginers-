@@ -1,4 +1,4 @@
-#to print the calender of a specific month
+#to print the calendar of a specific month
 
 import calendar
 
