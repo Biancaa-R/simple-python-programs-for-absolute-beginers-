@@ -4,13 +4,13 @@
 bp=float(input("Enterthe basic pay of the employee"))
 da=88/100*bp
 hra=8/100*bp
-CCA = 1000 
+cca = 1000 
 Insurance =2000
 pf=10/100*bp
-Gross Pay = BP + DA + HRA + CCA 
-print("The gross pay of the employee is",Gross Pay)
-Deductions = Insurance + PF 
+GrossPay = bp+da+hra+cca
+print("The gross pay of the employee is",GrossPay)
+Deductions = Insurance + pf
 print("The deductions of the employee is",Deductions)
-print("The netsalary is",Gross Pay-Deductions)
+print("The netsalary is",GrossPay-Deductions)
 
 #end
