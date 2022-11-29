@@ -5,4 +5,8 @@ def numbers():
     y=int(input("Enter the second number"))
     z=int(input("enter the third number"))
     if x==y==z:
-        return 3*x*y*z
+        return 3*(x+y+z)
+    else:
+        return (x+y+z)
+
+print("The output of the program is",numbers())
