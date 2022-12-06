@@ -1,11 +1,11 @@
 #Assignment3 5.alculate salary with bonus based on conditions
-s=int(input('Enter salary:'))
+salary=int(input('Enter salary:'))
 g=input('Enter gender (F/M):')
-sal=s
-if s<10000:
-    sal+=2/100*sal
+totsal=salary
+if salary<10000:
+    totsal+=2/100*salary
 if g.upper()=='F':
-    sal+=15/100*s
+    totsal+=15/100*salary
 elif g.upper()=='M':
-    sal+=5/100*s
-print('Total salary:',sal)
+    totsal+=5/100*salary
+print('Total salary:',totsal)
