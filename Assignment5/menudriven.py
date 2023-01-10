@@ -25,7 +25,8 @@ while True:
         if k.isalnum():
             print('Alphanumeric')
     elif i.lower()=='e':
-        print(k.partition())
+        value=input("enter the middle value")
+        print(k.partition(value))
     elif i.lower()=='f':
         break
     else:

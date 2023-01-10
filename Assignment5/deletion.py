@@ -3,7 +3,7 @@
 str=""
 string=input("Enter the string")
 sub=input("Enter the sub string")
-for i len(string):
+for i in len(string):
     if sub==string[i]:
         continue
     else:
