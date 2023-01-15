@@ -1,5 +1,5 @@
 #Write a Python program to count Uppercase, Lowercase, special character andnumeric values in a given string.
-upper,lower,special,num=0
+upper,lower,special,num=0,0,0,0
 
 string=input("Enter the string")
 for i in range (len(string)):
