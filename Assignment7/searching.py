@@ -19,7 +19,17 @@ for i in range(0,n):
 	arr.append(x)
 
 x=str(input("Enter the value to be found"))
-linear=arr.copy()
+
+
+end=len(arr)
+linear=arr[::]
+for i in range(0,end):
+	if linear[i]==x:
+		print(i,"is the index of the name")
+  		found+=1
+if found==0:
+	print("The name is not found in the list")
+
 
 #Bubble sort:
 swap=True
@@ -34,14 +44,8 @@ while swap:
 print(arr,"is the sorted list")
 
 start=0
-end=len(arr)
+
 binary=binary_search(start,end,x)
 print(binary,"is the index of the name in the sorted list")
 
-for i in range(0,end):
-	if linear[i]==x:
-		print(i,"is the index of the name")
-  		found+=1
-if found==0:
-	print("The name is not found in the list")
 

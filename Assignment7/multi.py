@@ -29,6 +29,8 @@ for i in range(0,rows):
 print("matrice B inputted")
 
 result=[[sum(a * b for a, b in zip(rows, coloumns2)) for coloumns2 in zip(*matriceB)] for rows in matriceA]
+
+print(result)
  
 
 
