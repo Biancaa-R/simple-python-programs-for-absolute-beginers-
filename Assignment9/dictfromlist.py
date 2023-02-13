@@ -10,5 +10,5 @@ for i in range(n):
 	l2.append(age)
 for i in range(0, n):
 	dict1[l1[i]]=l2[i]
-	print(dict1)
+print(dict1)
 	
