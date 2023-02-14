@@ -1,0 +1,28 @@
+"""2.A student wants to analyze his “assignment.txt’ file before submission. He is interested in finding out the number of characters, number of words, number of lines in the assignment file. Write the Python function ‘assignment_analyser()’ that takes the file as its input and produces character, word and line count as its output."""
+
+char=0
+lines=0
+words=0
+F=open("assignment.txt","r")
+
+def assignment_analyser(F):
+	global char,lines,words
+	value1=F.read()
+	F.seek(0)
+	for i in value1:
+		char+=1
+	value1=value1.split(" ")
+	for i in value1:
+		words+=1
+	
+	value2=F.readlines()
+	for i in value2:
+		lines+=1
+	return char,words,lines
+
+c,w,l=assignment_analyser(F)
+
+print("There are",c,"characters",w,"words and",l,"lines")
+
+F.close()	
+
